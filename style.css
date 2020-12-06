@@ -1,0 +1,21 @@
+body {
+    max-width: auto;
+    
+}
+
+textarea {
+    border: solid black 1px;
+    margin: 1rem;
+    padding: 2rem;
+    width: 15rem;
+    height: 2rem;
+}
+
+#txt-output {
+    border: solid black 1px;
+    margin: 1rem;
+    padding: 2rem;
+    width: 15rem;
+    height: 2rem;
+}
+
