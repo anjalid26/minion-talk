@@ -12,6 +12,7 @@ body {
     background-image: url("/images.png");
     color: white;
     font-family: 'Texturina', serif;
+    background-size: contain;
 }
 
 p {
@@ -90,11 +91,23 @@ a {
     color: var(--primary-color);
 }
 
+
+/* container */
+.container {
+    padding: 1rem 1rem;
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+}
+
+
 /* navigation */
 .navigation {
     background-color: var(--secondary-color);
     color: var(--primary-color);
-    padding: 2rem;
+    padding: 1rem;
     border-bottom-left-radius: 1rem;
     text-align: center;
     font-weight: bold;
