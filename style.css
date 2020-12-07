@@ -22,12 +22,14 @@ p {
 
 textarea {
     border: solid black 1px;
-    margin: 2rem;
+    margin: 3rem;
     padding: 2rem;
+    /* width: 10%; */
     width: 20rem;
     height: 5rem;
     align-items: center;
     font-family: 'Texturina', serif;
+    position: relative;
 }
 
 #txt-output {
@@ -39,6 +41,7 @@ textarea {
     background-color: white;
     color: black;
     font-family: 'Texturina', serif;
+    align-items: center;
 }
 
 .output {
@@ -47,11 +50,6 @@ textarea {
     padding: 0.5rem 0.5rem;
     color: white;
 }
-
-
-/* .align-right {
-    text-align: center;
-} */
 
 
 /* lists */
@@ -125,7 +123,8 @@ a {
     /* color: white; */
     border-top-right-radius: 1rem;
     margin: 0px;
-    /* max-width: 1000%; */
+    width: 100%;
+    position: fixed;
 }
 
 .footer .links {
